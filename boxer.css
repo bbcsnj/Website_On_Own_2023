@@ -3,6 +3,8 @@ body {
       color: #40407A;
       font-family: "Gelasio", Arial, sans-serif;
       font-size: 1.2em;
+      padding: 0;
+      margin: 0;
 }
 #wrapper { 
       margin-left: auto;
