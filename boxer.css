@@ -3,32 +3,34 @@ body {
       color: #40407A;
       font-family: "Gelasio", Arial, sans-serif;
       font-size: 1.2em;
-      padding: 0;
       margin: 0;
+      padding: 0;  
 }
 #wrapper { 
       margin-left: auto;
       margin-right: auto;
-      width: 90%; 
+      width: 90%;
       background-color: white;
-      padding: 0;
-      margin-top: 0;  
-      margin-bottom: 0;        
 }
 header { 
-      background-color: #80CBC4;
-      text-align: center; 
+     background-image: url(https://somenewtouse-images-012723.netlify.app/boxing_glove_banner_bg_edit1.png);
+     background-position: center left;
+     background-repeat: no-repeat;
+     background-size: 355px 180px;
+     background-color: royalblue;        border-bottom: solid 1px royalblue;
+     border-top: solid 0.5px royalblue;
 }
 h1 {  line-height: 200%;
       font-family: "Chango", Arial, sans-serif;
-      background-color: royalblue;
+      text-align: center;
       color: white;
       text-shadow: 3px 3px navy;
       }
 nav { font-weight: bold; 
       text-align: center;
       background-color: silver;
-      line-height: 200%;
+      line-height: 25%;
+      border: solid silver;
 }
 nav a { text-decoration: none; 
         color: royalblue;
@@ -46,4 +48,12 @@ footer {
 h4 {
       font-weight: 900;
       text-shadow: .25px .25px black;
+}
+main {
+      padding-left: 30px; 
+      padding-right: 30px;
+      padding-top: 15px;
+}
+img {
+      padding: 5px;
 }
